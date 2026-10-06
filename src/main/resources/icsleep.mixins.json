@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.tt23xrstudio.icsleep.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"CallFunctionMixin",
+		"BuildContextsAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "ic-sleep-test",
+  "version": "1.0.0",
+  "name": "ICSl GameTest",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": [
+      "com.tt23xrstudio.icsleep.gametest.SleepCommandGameTest"
+    ]
+  }
+}

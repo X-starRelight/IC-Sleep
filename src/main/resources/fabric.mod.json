@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "ic-sleep",
+	"version": "${version}",
+	"name": "Improved Commands - Sleep",
+	"description": "为命令执行流程引入基于游戏刻的延迟：/sleep <time> run <command> 与函数暂停。",
+	"authors": [
+		"tt23xrstudio"
+	],
+	"contact": {},
+	"license": "GNU GPL v3.0",
+	"icon": "assets/ic-sleep/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.tt23xrstudio.icsleep.IcSleepMod"
+		]
+	},
+	"mixins": [
+		"icsleep.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"ic-root": ">=0.1.0"
+	}
+}
