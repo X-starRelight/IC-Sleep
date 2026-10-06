@@ -1,5 +1,7 @@
 # Improved Commands - Sleep
 
+![Logo](./icon.png)
+
 Improved Commands - Sleep（IC-Sleep）是一个 Fabric Mod，为命令执行流程引入基于游戏刻的延迟：`/ic run sleep sleep <time> run <command>` 在指定延迟后以原始执行上下文执行命令，数据包函数内裸写 `/sleep <time>` 可暂停函数、延迟后从下一条命令继续，并附带任务 ID 返回值、队列限额、来源失效自动取消与 JSON 持久化。命令统一挂载在 IC-Root 的 `/ic run sleep` 下。
 
 ## 基本信息
